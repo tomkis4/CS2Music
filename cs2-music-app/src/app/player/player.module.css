@@ -1,0 +1,94 @@
+.header {
+    @apply flex items-center justify-between p-4 text-white;
+  }
+  
+  .headerYoutube {
+    @apply bg-red-700 bg-opacity-90;
+  }
+  
+  .headerSpotify {
+    @apply bg-green-700 bg-opacity-90;
+  }
+  
+  .headerJamendo {
+    @apply bg-pink-700 bg-opacity-90;
+  }
+  
+  .leftHeader {
+    @apply flex items-center space-x-4;
+  }
+  
+  .mapName {
+    @apply text-xl font-bold;
+  }
+  
+  .source {
+    @apply text-sm;
+  }
+  
+  .homeButton {
+    @apply text-sm text-white underline;
+  }
+  
+  /* Zwiększamy rozmiar playerBox */
+  .playerBox {
+    @apply text-white bg-black bg-opacity-60 p-4 rounded text-center flex flex-col items-center justify-center;
+    @apply w-[600px] min-h-[500px]; /* większe wymiary */
+  }
+  
+  .songBox {
+    @apply bg-black bg-opacity-60 p-4 rounded inline-block mb-4;
+  }
+  
+  .songBoxYoutube {
+    @apply border-4 border-red-700;
+  }
+  
+  .songBoxSpotify {
+    @apply border-4 border-green-700;
+  }
+  
+  .songBoxJamendo {
+    @apply border-4 border-pink-700;
+  }
+  
+  .buttonsContainer {
+    @apply flex space-x-4 mt-4;
+  }
+  
+  .likeButton {
+    @apply px-4 py-2 rounded text-white font-semibold;
+  }
+  
+  .nextButton {
+    @apply px-4 py-2 rounded text-white font-semibold;
+  }
+  
+  .likeButtonYoutube {
+    @apply bg-red-600 hover:bg-red-700;
+  }
+  
+  .nextButtonYoutube {
+    @apply bg-red-600 hover:bg-red-700;
+  }
+  
+  .likeButtonSpotify {
+    @apply bg-green-600 hover:bg-green-700;
+  }
+  
+  .nextButtonSpotify {
+    @apply bg-green-600 hover:bg-green-700;
+  }
+  
+  .likeButtonJamendo {
+    @apply bg-pink-600 hover:bg-pink-700;
+  }
+  
+  .nextButtonJamendo {
+    @apply bg-pink-600 hover:bg-pink-700;
+  }
+  
+  .loadingMessage {
+    @apply text-white bg-black bg-opacity-60 p-2 rounded;
+  }
+  

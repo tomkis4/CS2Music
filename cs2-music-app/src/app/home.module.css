@@ -1,0 +1,21 @@
+.container {
+    @apply min-h-screen flex flex-col items-center justify-center bg-black bg-cover bg-center bg-no-repeat;
+    background-image: url("/maps/MainPage.jpg");
+  }
+  
+  .contentWrapper {
+    @apply bg-white bg-opacity-60 p-4 rounded;
+  }
+  
+  .title {
+    @apply text-5xl font-extrabold text-black mb-4; /* Większy rozmiar i pogrubienie */
+  }
+  
+  .selectors {
+    @apply space-y-4 text-black text-xl font-bold; /* Większy tekst i pogrubienie */
+  }
+  
+  .button {
+    @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-lg font-bold; /* Większy i pogrubiony tekst */
+  }
+  
