@@ -30,10 +30,10 @@
     @apply text-sm text-white underline;
   }
   
-  /* Zwiększamy rozmiar playerBox */
+ 
   .playerBox {
     @apply text-white bg-black bg-opacity-60 p-4 rounded text-center flex flex-col items-center justify-center;
-    @apply w-[600px] min-h-[500px]; /* większe wymiary */
+    @apply w-[600px] min-h-[500px]; 
   }
   
   .songBox {
